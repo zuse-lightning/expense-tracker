@@ -7,6 +7,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Expense Tracker</h1>
+        <Budgets />
+        <Transactions />
       </header>
     </div>
   );

@@ -12,7 +12,7 @@ export default function Transaction({ transaction }) {
     return (
         <li className="new-transaction">
             <span>
-                {transaction.amount - transaction.category}{" "}
+                {`$${transaction.amount} `}
                 <span className="description">({transaction.description})</span>
             </span>
             <button onClick={handleDelete} aria-label="Remove">
